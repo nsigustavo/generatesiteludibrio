@@ -1,0 +1,76 @@
+.python {
+    font-family:monospace;
+}
+.python .imp {
+    color:red;
+    font-weight:bold;
+}
+.python .ln {
+    margin:0;
+    padding:0 2px;
+    text-align:right;
+    vertical-align:top;
+    width:1px;
+}
+.python .kw1 {
+    color:#ffffff;
+    font-weight:bold;
+}
+.python .kw2 {
+    color:red;
+}
+.python .kw3 {
+    color:#DC143C;
+}
+.python .kw4 {
+    color:#0000CD;
+}
+.python .co1 {
+    color:#808080;
+    font-style:italic;
+}
+.python .coMULTI {
+    color:#808080;
+    font-style:italic;
+}
+.python .es0 {
+    color:#000099;
+    font-weight:bold;
+}
+.python .br0 {
+    color:white;
+}
+.python .sy0 {
+    color:#ffffff;
+}
+.python .st0 {
+    color:yellow;
+}
+.python .nu0 {
+    color:#ffffff;
+}
+.python .me1 {
+    color:white;
+}
+.python span.xtra {
+    display:block;
+}
+
+.python ol {
+    list-style: none;
+    color:white;
+    
+}
+
+.python ol li {
+    margin: 0;
+    padding: 0;
+
+}
+.python ol li div {
+    margin: 0;
+    padding: 0;
+    display:inline;
+    float:left;
+}
+

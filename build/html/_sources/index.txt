@@ -1,0 +1,44 @@
+.. ludibrio documentation master file, created by
+   sphinx-quickstart on Wed Jun 23 17:03:21 2010.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to ludibrio
+===================
+
+ludibrio’s documentation:
+
+.. toctree::
+
+    ludibrio/ludibrio/specification/helpers/dependencyinjection_importforadocontexto
+    ludibrio/ludibrio/specification/helpers/mock_and_stub_dependencyinjection
+    ludibrio/ludibrio/specification/helpers/dependencyinjection
+    ludibrio/ludibrio/specification/stub/stub
+    ludibrio/ludibrio/specification/stub/stub_proxy
+    ludibrio/ludibrio/specification/stub/stub_msg_error
+    ludibrio/ludibrio/specification/specialarguments/equal_to_ignoring_case
+    ludibrio/ludibrio/specification/specialarguments/in_any_order
+    ludibrio/ludibrio/specification/specialarguments/ended_with
+    ludibrio/ludibrio/specification/specialarguments/less_than_or_equal_to
+    ludibrio/ludibrio/specification/specialarguments/custom
+    ludibrio/ludibrio/specification/specialarguments/contains
+    ludibrio/ludibrio/specification/specialarguments/kind_of
+    ludibrio/ludibrio/specification/specialarguments/equal_to
+    ludibrio/ludibrio/specification/specialarguments/greater_than_or_equal_to
+    ludibrio/ludibrio/specification/specialarguments/started_with
+    ludibrio/ludibrio/specification/specialarguments/any_of
+    ludibrio/ludibrio/specification/specialarguments/instance_of
+    ludibrio/ludibrio/specification/specialarguments/less_than
+    ludibrio/ludibrio/specification/specialarguments/like
+    ludibrio/ludibrio/specification/specialarguments/into
+    ludibrio/ludibrio/specification/specialarguments/specialarguments
+    ludibrio/ludibrio/specification/specialarguments/greater_than
+    ludibrio/ludibrio/specification/specialarguments/traceroute
+    ludibrio/ludibrio/specification/dummy/dummy
+    ludibrio/ludibrio/specification/mock/mock_unordered
+    ludibrio/ludibrio/specification/mock/mock_msg_error
+    ludibrio/ludibrio/specification/mock/mock
+
+.. include::
+    ludibrio/README.rst
+

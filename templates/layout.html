@@ -1,4 +1,32 @@
 {% extends "!layout.html" %}
+{% block extrahead %}
+
+
+    <link rel="stylesheet" href="{{ pathto('_static/css/python.css', 1) }}" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="{{ pathto('_static/css/global.css', 1) }}" type="text/css" charset="utf-8" />
+{% endblock %}
+
+{% block body %}
+
+<div id="content">
+    <div class="menu">
+        <img src="file:///media/KINGSTON/site/img/documentacao.png" />
+        <img src="file:///media/KINGSTON/site/img/comunidade.png" />
+        <img src="file:///media/KINGSTON/site/img/download.png" />
+        <img src="file:///media/KINGSTON/site/img/programando.png" />
+        <img src="file:///media/KINGSTON/site/img/lupa.png" />
+    </div>
+
+    <div id="search">
+        <form action="" method="get">
+            <input type="text" name="search" class="searchinput" />
+            <input type="submit" value="search" class="submitsearch" />
+        </form>
+    </div>
+</div>
+
+{{ body() }}
+{% endblock %}
 {% block rootrellink %}{% endblock %}
 {% block linktags %}{% endblock %}
 {% block relbar1 %}{% endblock %}
@@ -10,6 +38,5 @@
 {% block footer %}{% endblock %}
 {% block sidebar1 %}{% endblock %}
 {% block sidebar2 %}{% endblock %}
-
 
 

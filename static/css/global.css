@@ -15,31 +15,39 @@ pre {
 }
 
 h1, h2 {
+    padding-top: 5px;
     padding-left:20px;
     text-shadow:2px 2px 1px #ffffff; 
+    width:80%;
 }
+
 h1 {
     padding-left: 50px;
     border-bottom:1px solid black;
     font-size:2em;
-    width:80%;
 }
 
 h2 {
     font-size:1.5em;
+    padding-left: 50px;
+    border-bottom:1px solid black;
 
 }
 
 
-h1.documentation{
-    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/documentacao.png) bottom left no-repeat transparent;
+#documentation h2 {
+    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/_documentacao.png) top left no-repeat transparent;
 }
-h1.development{
-    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/programando.png)  0 2px  no-repeat transparent;
+#getting-involved h2 {
+    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/_programando.png) top left  no-repeat transparent;
 }
-h1.install {
-    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/install.png) bottom left no-repeat transparent;
+#install h2 {
+    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/_install.png) top left no-repeat transparent;
 }
+#download h2 {
+    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/_download.png) top left no-repeat transparent;
+}
+
 
 
 body {
@@ -54,7 +62,7 @@ body {
     margin-left:1em;
 }
 
-#in-a-nutshell, #should-dsl {
+#in-a-nutshell, #welcome-to-ludibrio {
     display:inline-block;
     width:48%;
     vertical-align: top;
@@ -104,3 +112,7 @@ body {
     vertical-align: top;
 }
 
+
+#welcome-to-ludibrio img {
+    display: none;
+}

@@ -24,4 +24,3 @@ if [ -d google_appengine]; then else
 fi
 
 
-cp -rf build/html/* ludibrio/docs

@@ -1,10 +1,8 @@
-.. ludibrio documentation master file, created by
-   sphinx-quickstart on Wed Jun 23 17:03:21 2010.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-Welcome to ludibrio
-===================
+Documentation
+-------------
+Here, you can find examples showing how to use Ludibrio test double.
+
 
 ludibrio’s documentation:
 
@@ -38,7 +36,4 @@ ludibrio’s documentation:
     ludibrio/ludibrio/specification/mock/mock_unordered
     ludibrio/ludibrio/specification/mock/mock_msg_error
     ludibrio/ludibrio/specification/mock/mock
-
-.. include::
-    ludibrio/README.rst
 

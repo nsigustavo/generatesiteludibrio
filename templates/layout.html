@@ -1,42 +1,52 @@
 {% extends "!layout.html" %}
+
+{% set reldelim1 = ' &gt;' %}
+
 {% block extrahead %}
 
 
-    <link rel="stylesheet" href="{{ pathto('_static/css/python.css', 1) }}" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="{{ pathto('_static/css/global.css', 1) }}" type="text/css" charset="utf-8" />
+
+
 {% endblock %}
 
-{% block body %}
 
-<div id="content">
+{% block relbar1 %}
+
     <div class="menu">
-        <img src="file:///media/KINGSTON/site/img/documentacao.png" />
-        <img src="file:///media/KINGSTON/site/img/comunidade.png" />
-        <img src="file:///media/KINGSTON/site/img/download.png" />
-        <img src="file:///media/KINGSTON/site/img/programando.png" />
-        <img src="file:///media/KINGSTON/site/img/lupa.png" />
+        <a href='{{ pathto('index.html', 1) }}'>
+            <img src="{{ pathto('_static/img/_home.png', 1) }}" />
+        </a>
+        <a href='http://groups.google.com.br/group/should-dsl'>
+            <img src="{{ pathto('_static/img/_comunidade.png', 1) }}" />
+        </a>
+        <a href='{{ pathto('index.html', 1) }}'>
+            <img src="{{ pathto('_static/img/_documentacao.png', 1) }}" />
+        </a>
+        <a href='http://github.com/hugobr/should-dsl/archives/master'>
+            <img src="{{ pathto('_static/img/_download.png', 1) }}" />
+        </a>
+        <a href='http://github.com/hugobr/should-dsl'>
+            <img src="{{ pathto('_static/img/_programando.png', 1) }}" />
+        </a>
+        <a href='{{ pathto('search.html', 1) }}'>
+            <img src="{{ pathto('_static/img/_busca.png', 1) }}" />
+        </a>
+        <a href=''>
+            <img src="{{ pathto('_static/img/_baloes.png', 1) }}" />
+        </a>
     </div>
 
-    <div id="search">
-        <form action="" method="get">
-            <input type="text" name="search" class="searchinput" />
-            <input type="submit" value="search" class="submitsearch" />
-        </form>
-    </div>
+<div id="searchbox" style="display: none">
+    <form class="search" action="{{ pathto('search') }}" method="get">
+      <input type="text" name="q" class="text" />
+      <input type="submit" value="{{ _('Go') }}" class="submit" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
 </div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
 
-{{ body() }}
 {% endblock %}
-{% block rootrellink %}{% endblock %}
-{% block linktags %}{% endblock %}
-{% block relbar1 %}{% endblock %}
-{% block relbar2 %}{% endblock %}
-{% block relbaritems %}{% endblock %}
-{% block sidebarrel %}{% endblock %}
-{% block sidebarsourcelink %}{% endblock %}
-{% block sidebarsearch %}{% endblock %}
-{% block footer %}{% endblock %}
-{% block sidebar1 %}{% endblock %}
-{% block sidebar2 %}{% endblock %}
 
 

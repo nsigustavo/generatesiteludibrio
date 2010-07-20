@@ -11,13 +11,12 @@ pre {
     -moz-border-radius:10px;
     color: #ffffff !important;
     border: 0 solid transparent;
-    
+    padding:1em;
 }
 
 h1, h2 {
     padding-left:20px;
     text-shadow:2px 2px 1px #ffffff; 
-    font-family: "lane humouresque";
 }
 h1 {
     padding-left: 50px;
@@ -28,45 +27,39 @@ h1 {
 
 h2 {
     font-size:1.5em;
-    border-bottom:1px solid black;
-    width:50%;
 
 }
 
 
 h1.documentation{
-    background: url(file:///media/KINGSTON/site/img/documentacao.png) bottom left no-repeat transparent;
+    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/documentacao.png) bottom left no-repeat transparent;
 }
 h1.development{
-    background: url(file:///media/KINGSTON/site/img/programando.png)  0 2px  no-repeat transparent;
+    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/programando.png)  0 2px  no-repeat transparent;
 }
 h1.install {
-    background: url(file:///media/KINGSTON/site/img/install.png) bottom left no-repeat transparent;
+    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/install.png) bottom left no-repeat transparent;
 }
 
 
 body {
-    background: url(file:///media/KINGSTON/site/img/bg_main.jpg) 0 0 repeat-x transparent;
+    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/bg_main.jpg) 0 0 repeat-x transparent;
     padding: 0;
     margin: 0;
 }
 
-#content {
+.document {
     padding-top: 170px;
-    background: url(file:///media/KINGSTON/site/img/bg_logo.png) top center no-repeat transparent;
+    background: url(file:///home/eu/generatesiteludibrio/build/html/_static/img/bg_logo.png) top center no-repeat transparent;
     margin-left:1em;
 }
 
-.coluna {
+#in-a-nutshell, #should-dsl {
     display:inline-block;
     width:48%;
     vertical-align: top;
 }
 
-@font-face {
-    font-family: "lane humouresque";
-    src: url(file:///media/KINGSTON/site/css/css/Lanehum.ttf);
-}
 
 .menu {
     position:absolute;
@@ -79,13 +72,6 @@ body {
     border: 0;
 }
 
-#search {
-    position:absolute;
-    right: 10px;
-    top: 10px;
-}
-
-
 .menu a {
     text-decoration: none;
     color: black;
@@ -93,22 +79,28 @@ body {
     text-shadow:2px 2px 1px #ffffff;
 }
 
-#search .submitsearch {
+#searchbox {
+    position:absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.search input.submit {
     width: 68px;
     height: 23px;
     margin: 0;
     border: 0;
-    background: transparent url(file:///media/KINGSTON/site/img/search.png) no-repeat center top;
+    background: transparent url(file:///home/eu/generatesiteludibrio/build/html/_static/img/search.png) no-repeat center top;
     color:transparent;
     vertical-align: top;
 }
 
-#search .searchinput {
+.search input.text {
     width: 213px;
     height: 23px;
     margin: 0;
     border: 0;
-    background: transparent url(file:///media/KINGSTON/site/img/searchinput.png) no-repeat center top;
+    background: transparent url(file:///home/eu/generatesiteludibrio/build/html/_static/img/searchinput.png) no-repeat center top;
     vertical-align: top;
 }
 

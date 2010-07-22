@@ -1,0 +1,3 @@
+
+.. include::
+    ludibrio/ludibrio/specification/functional/testdouble.dt

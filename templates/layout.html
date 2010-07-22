@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="{{ pathto('_static/css/global.css', 1) }}" type="text/css" charset="utf-8" />
 
+    <link rel="stylesheet" href="{{ pathto('_static/css/python.css', 1) }}" type="text/css" charset="utf-8" />
+
 
 {% endblock %}
 
@@ -14,26 +16,20 @@
 {% block relbar1 %}
 
     <div class="menu">
-        <a href='{{ pathto('index.html', 1) }}'>
+        <a href="{{ pathto('index.html', 1) }}">
             <img src="{{ pathto('_static/img/_home.png', 1) }}" />
         </a>
-        <a href='http://groups.google.com.br/group/should-dsl'>
-            <img src="{{ pathto('_static/img/_comunidade.png', 1) }}" />
-        </a>
-        <a href='{{ pathto('index.html', 1) }}'>
+        <a href="{{ pathto('documentation.html', 1) }}">
             <img src="{{ pathto('_static/img/_documentacao.png', 1) }}" />
         </a>
-        <a href='http://github.com/hugobr/should-dsl/archives/master'>
+        <a href="{{ pathto('download.html', 1) }}">
             <img src="{{ pathto('_static/img/_download.png', 1) }}" />
         </a>
-        <a href='http://github.com/hugobr/should-dsl'>
+        <a href="{{ pathto('getting_involved.html', 1) }}">
             <img src="{{ pathto('_static/img/_programando.png', 1) }}" />
         </a>
-        <a href='{{ pathto('search.html', 1) }}'>
+        <a href="{{ pathto('search.html', 1) }}">
             <img src="{{ pathto('_static/img/_busca.png', 1) }}" />
-        </a>
-        <a href=''>
-            <img src="{{ pathto('_static/img/_baloes.png', 1) }}" />
         </a>
     </div>
 
@@ -49,4 +45,6 @@
 
 {% endblock %}
 
+{% block footer %}{% endblock %}
+{% block relbar2  %}{% endblock %}
 
